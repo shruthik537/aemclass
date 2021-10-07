@@ -1,0 +1,11 @@
+127.0.0.1 - - [25/Sep/2021:12:14:09 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [25/Sep/2021:12:14:12 +0530] "GET /firstweb/ HTTP/1.1" 200 1680
+0:0:0:0:0:0:0:1 - - [25/Sep/2021:12:14:19 +0530] "GET /firstweb/ServletDataShare.html HTTP/1.1" 200 335
+0:0:0:0:0:0:0:1 - - [25/Sep/2021:12:14:29 +0530] "GET /firstweb/servletone%20method=?fname=hello&lname=welcome HTTP/1.1" 404 784
+0:0:0:0:0:0:0:1 - - [25/Sep/2021:12:20:38 +0530] "GET /firstweb/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Sep/2021:12:20:42 +0530] "GET /firstweb/ServletDataShare.html HTTP/1.1" 200 336
+0:0:0:0:0:0:0:1 - - [25/Sep/2021:12:20:52 +0530] "POST /firstweb/servletone HTTP/1.1" 200 20
+127.0.0.1 - - [25/Sep/2021:12:22:43 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [25/Sep/2021:12:22:44 +0530] "GET /firstweb/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Sep/2021:12:22:48 +0530] "GET /firstweb/ServletDataShare.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Sep/2021:12:22:56 +0530] "POST /firstweb/servletone HTTP/1.1" 200 20

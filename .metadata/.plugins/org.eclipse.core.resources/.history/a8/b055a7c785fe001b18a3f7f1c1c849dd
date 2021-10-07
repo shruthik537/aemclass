@@ -1,0 +1,12 @@
+package com.test.inheritance;
+
+public class c {
+	
+		
+	void m3() {
+		String a=super.str;
+		String b= super.str1;
+		
+	}
+
+}

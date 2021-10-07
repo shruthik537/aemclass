@@ -1,0 +1,7 @@
+package firstweb.service;
+
+public interface EmployRegister {
+
+	
+	public void employReg(String firstname, String lastname, String email, String password)
+}

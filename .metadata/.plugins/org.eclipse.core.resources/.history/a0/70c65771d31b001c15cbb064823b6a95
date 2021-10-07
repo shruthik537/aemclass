@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type = "text/javascript" 
+         src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+      </script>
+  <script type = "text/javascript" language = "javascript">
+         $(document).ready(function() {
+        alert("its working");
+        
+        $("#submit").click(function(){
+        	alert('inside click');
+        	var firstname=$('#fname').val();
+            var lastname=$('#lname').val();
+        	var email=$('#email').val();
+            var password=$('#pwd').val();
+            
+            if(fname==""){
+            	alert("enter firstname");
+             }
+            if(lname==""){
+            	alert("enter lastname");
+             }
+            if(email==""){
+            	alert("enter email");
+             }
+            if(pwd==""){
+            	alert("enter password"); 
+             }
+           // alert(user);
+          //  alert(pwd);
+      	
+                    
+         });
+      });
+         
+      </script>
+
+</head>
+<body style="background-color:red;">
+<form name="myForm" action="./Employeeregister" method="post">
+firstName:<input type="text" name="fname" id="fname"/>
+lastName:<input type="text" name="lname" id="lname"/>
+E-mail:<input type="text" name="email" id="email"/>
+Password:<input type="text" name="pwd" id="pwd"/>
+<input type="submit" value="submit" id="submit"/>
+</form>
+
+</body>
+</html>

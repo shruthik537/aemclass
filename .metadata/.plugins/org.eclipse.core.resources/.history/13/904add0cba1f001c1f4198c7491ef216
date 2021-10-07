@@ -1,0 +1,7 @@
+package firstweb.serviceimpl;
+
+import firstweb.service.Dbutilinterface;
+
+public class Dbutilimpl implements Dbutilinterface {
+
+}

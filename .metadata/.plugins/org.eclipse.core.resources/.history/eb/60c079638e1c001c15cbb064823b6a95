@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script>
+$(document).ready(function() {
+        $('#userName').blur(function(event) {
+                var name = $('#userName').val();
+                $.get('GetUserServlet', {
+                        userName : name
+                }, function(responseText) {
+                        $('#ajaxGetUserServletResponse').text(responseText);
+                });
+        });
+});
+</script>
+</head>
+<body>
+<form>
+		Enter Your Name: <input type="text" id="userName" />
+	</form>
+	<br>
+	<br>
+
+	<strong>Ajax Response</strong>:
+	<div id="ajaxGetUserServletResponse"></div>
+
+</body>
+</html>

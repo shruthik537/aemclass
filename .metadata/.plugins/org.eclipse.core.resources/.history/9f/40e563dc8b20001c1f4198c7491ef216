@@ -1,0 +1,86 @@
+package firstweb.serviceimpl;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+import firstweb.bean.Emp;
+import firstweb.dbutil.Dbutil;
+import firstweb.service.EmpRegister;
+
+public class EmpRegisterImpl implements EmpRegister{
+	Connection con=null;
+	int status=0;
+
+	@Override
+	public void EmpRegi(int id, String name, String email, String password, String country) {
+		// TODO Auto-generated method stub
+		
+		Dbutil db=new Dbutil();
+		
+		
+		try {
+			con=db.getConnection();
+			System.out.println("connection success----"+con);
+					
+				} catch (Exception e) {
+					// TODO: handle exception
+					
+					e.printStackTrace();
+				}finally {
+					
+				}
+		
+	}
+
+	@Override
+	public int save(Emp e) {
+		// TODO Auto-generated method stub
+		
+		try {
+			PreparedStatement ps=(PreparedStatement)con.prepareStatement("insert into user905(id,name,email,password,country)values(?,?,?,?)");
+			ps.setLong(1, e.getId());
+			ps.setString(2, e.getName());
+			ps.setString(3, e.getEmail());
+			ps.setString(4, e.getPassword());
+			ps.setString(5, e.getCountry());
+			
+			status=ps.executeUpdate();
+			con.close();
+		} catch (Exception e2) {
+			// TODO: handle exception
+			e2.printStackTrace();
+		}finally {
+			if(con!=null) {
+				try {
+					con.close();
+				} catch (Exception e3) {
+					// TODO: handle exception
+					e3.printStackTrace();
+				}
+			}
+			
+		}
+		
+		return status;
+	}
+
+	@Override
+	public int update(Emp e) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int delete(int id) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public Emp getEmployeeById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

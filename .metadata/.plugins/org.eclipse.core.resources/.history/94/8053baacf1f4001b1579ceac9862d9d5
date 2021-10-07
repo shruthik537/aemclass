@@ -1,0 +1,15 @@
+package javaclass;
+
+public class switchcase {
+	public static void main(String[] args) {
+		switch (key) {
+		case value:
+			
+			break;
+
+		default:
+			break;
+		}
+	}
+
+}

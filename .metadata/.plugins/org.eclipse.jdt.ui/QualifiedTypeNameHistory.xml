@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="javaclass.superkeywordconcept"/>
+    <fullyQualifiedTypeName name="javaclass.superkeysub"/>
+    <fullyQualifiedTypeName name="javaaem.accessmodifier"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.launcher.Main"/>
+    <fullyQualifiedTypeName name="javaclass.constructorChaining"/>
+    <fullyQualifiedTypeName name="com.java.bean.bookDetails"/>
+    <fullyQualifiedTypeName name="com.java.studentintface.bookdetailsinterface"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.java.driver.inputmethod"/>
+    <fullyQualifiedTypeName name="com.java.constants.constants"/>
+    <fullyQualifiedTypeName name="com.java.studentimpl.bookdetailsimpl"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+    <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+</qualifiedTypeNameHistroy>

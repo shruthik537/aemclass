@@ -1,0 +1,12 @@
+package com.test.inheritance;
+
+public class singleinheritance {
+	
+	String name="abc";
+	String m1() {
+		
+		return "welcome";
+		
+	}
+
+}

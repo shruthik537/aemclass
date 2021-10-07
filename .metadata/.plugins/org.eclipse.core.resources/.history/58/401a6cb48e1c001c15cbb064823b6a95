@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type = "text/javascript" 
+         src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+      </script>
+<script>
+$(document).ready(function() {
+	$('#userName').blur(function() {
+		$.ajax({
+			url : 'GetUserServlet',
+			data : {
+				user : $('#userName').val()
+			},
+			success : function(responseText) {
+				$('#ajaxGetUserServletResponse').text(responseText);
+			}
+		});
+	});
+});
+</script>
+</head>
+<body>
+<form>
+		Enter Your Name: <input type="text" id="userName" />
+	</form>
+	<br>
+	<br>
+
+	<strong>Ajax Response</strong>:
+	<div id="ajaxGetUserServletResponse"></div>
+
+</body>
+</html>

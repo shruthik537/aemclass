@@ -1,0 +1,15 @@
+package javaclass;
+
+public class switchusageconcept {
+	
+	String stdid="1";
+	String stdname="abc";
+	String empid="2";
+	String empname="xyz";
+			
+	
+	void studentdetails() {
+		S
+	}
+
+}

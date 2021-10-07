@@ -1,0 +1,4 @@
+127.0.0.1 - - [24/Sep/2021:12:36:33 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [24/Sep/2021:12:36:38 +0530] "GET /firstweb/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [24/Sep/2021:12:36:43 +0530] "GET /firstweb/jqueryservlet.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [24/Sep/2021:12:36:54 +0530] "GET /firstweb/GetUserServlet?userName=shruthi HTTP/1.1" 200 13

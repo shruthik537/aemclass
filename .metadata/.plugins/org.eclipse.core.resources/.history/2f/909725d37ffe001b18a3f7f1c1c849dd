@@ -1,0 +1,8 @@
+package com.test.inheritance;
+
+public class singleinheritance {
+	void m1() {
+		
+	}
+
+}

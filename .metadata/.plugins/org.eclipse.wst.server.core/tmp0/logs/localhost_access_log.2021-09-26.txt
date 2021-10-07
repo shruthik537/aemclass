@@ -1,0 +1,3 @@
+0:0:0:0:0:0:0:1 - - [26/Sep/2021:15:03:50 +0530] "GET /firstweb/ HTTP/1.1" 200 1680
+0:0:0:0:0:0:0:1 - - [26/Sep/2021:15:03:57 +0530] "GET /firstweb/ServletDataShare.html HTTP/1.1" 200 336
+0:0:0:0:0:0:0:1 - - [26/Sep/2021:15:04:06 +0530] "POST /firstweb/servletone HTTP/1.1" 200 20

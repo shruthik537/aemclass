@@ -1,0 +1,12 @@
+package com.test.inheritance;
+
+public class singlechild extends singleinheritance {
+	public static void main(String[] args) {
+		
+		singleinheritance obj=new singlechild();
+		System.out.println("name=="+obj.name);
+		obj.m1();
+		
+	}
+
+}

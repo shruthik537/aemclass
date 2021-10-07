@@ -1,0 +1,29 @@
+package firstweb.serviceimpl;
+
+import firstweb.service.Dbutilinterface;
+
+public class Dbutilimpl implements Dbutilinterface {
+
+	@Override
+	public void emp(String id, String name, String age) {
+		// TODO Auto-generated method stub
+		
+try {
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+			
+			e.printStackTrace();
+		}finally {
+			
+		}
+
+}
+
+
+
+
+
+	}
+
+}

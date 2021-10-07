@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type = "text/javascript" 
+         src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+      </script>
+  <script type = "text/javascript" language = "javascript">
+         $(document).ready(function() {
+        alert("its working");
+        
+        $("#submit").click(function(){
+        	alert('inside click');
+        	var user=$('#uname').val();
+            var pwd=$('#pwd').val();
+            
+            if(user==""){
+            	alert("enter username");
+             }
+            if(pwd==""){
+            	alert("enter password"); 
+             }
+           // alert(user);
+          //  alert(pwd);
+      	
+                    
+         });
+      });
+         
+      </script>
+
+</head>
+<body style="background-color:red;">
+<form name="myForm" action="/EmployRegisterServlet" method="post">
+Username:<input type="text" name="uname" id="uname"/>
+Password:<input type="text" name="pwd" id="pwd"/>
+<input type="submit" value="submit" id="submit"/>
+</form>
+
+</body>
+</html>

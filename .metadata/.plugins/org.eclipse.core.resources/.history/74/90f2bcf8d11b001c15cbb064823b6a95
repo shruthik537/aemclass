@@ -1,0 +1,26 @@
+package firstweb.serviceimpl;
+
+import firstweb.service.EmployRegister;
+
+public class employRegisterimpl implements EmployRegister{
+
+	@Override
+	public void employReg(String firstname, String lastname, String email, String password) {
+		// TODO Auto-generated method stub
+		
+		//
+		try {
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+			
+			e.printStackTrace();
+		}finally {
+			
+		}
+
+}
+}
+
+
+

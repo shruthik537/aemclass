@@ -1,0 +1,10 @@
+package com.test.inheritance;
+
+public class singleinheritance {
+	
+	String name;
+	void m1() {
+		
+	}
+
+}

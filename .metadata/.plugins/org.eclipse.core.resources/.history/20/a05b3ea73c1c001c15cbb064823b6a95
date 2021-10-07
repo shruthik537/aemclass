@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script>
+function callservlet(){
+	
+	document.getElementById("adminForm").action="./Administrator";
+	document.getElementById("adminForm").method="GET";
+	document.getElementById("adminForm").submit();
+
+}
+<button type="submit" onclick="callServlet()" align="center">Register</button>
+
+
+</script>
+
+
+
+</head>
+<body>
+
+</body>
+</html>

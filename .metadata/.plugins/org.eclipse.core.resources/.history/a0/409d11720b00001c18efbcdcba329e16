@@ -1,0 +1,19 @@
+package com.test.exception;
+
+public class AgeDriver {
+	static int Age=14;
+	
+	public static void main(String[] args) {
+		
+		if(Age<18) {
+			try {
+				throw new invalidageexception("You are not eligible to vote");
+			}
+			catch(Exception e) {
+				//To do exception
+		
+			}
+	}
+
+}
+}

@@ -1,0 +1,9 @@
+package com.test.exception;
+
+public class invalidageexception extends Exception{
+	
+	private invalidageexception(String msg) {
+		super(msg);
+	}
+
+}
